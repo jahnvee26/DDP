@@ -1,0 +1,11 @@
+# Grounded-SAM Dockerfile
+FROM python:3.10
+
+# System dependencies
+RUN apt-get update && apt-get install -y git
+
+# Install PyTorch for Grounded-SAM
+RUN pip install torch>=1.7 torchvision>=0.8
+
+# Default workdir
+WORKDIR /workspace

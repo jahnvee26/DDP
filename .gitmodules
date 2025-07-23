@@ -1,0 +1,6 @@
+[submodule "Grounded-Segment-Anything"]
+	path = Grounded-Segment-Anything
+	url = https://github.com/IDEA-Research/Grounded-Segment-Anything.git
+[submodule "openvla"]
+	path = openvla
+	url = https://github.com/OpenVLA/openvla.git
